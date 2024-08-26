@@ -1,0 +1,37 @@
+.sidebar-item-active {
+    background-color: #857ba149; 
+    position: relative;
+    z-index: 2;
+}
+
+#logo-sidebar a:hover,
+#logo-sidebar a:focus {
+    color: #f1ad38; 
+}
+
+#logo-sidebar a:hover .text-custom-392676,
+#logo-sidebar a:focus .text-custom-392676 {
+    color: #f1ad38; 
+}
+
+#logo-sidebar .vertical-line,
+#logo-sidebar .vertical-line2 {
+    position: absolute;
+    top: 0;
+    right: 12px; 
+    width: 4px;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 1; 
+}
+
+#logo-sidebar .vertical-line {
+    background-color: #000000; 
+}
+
+#logo-sidebar .vertical-line2 {
+    background-color: #f1ad38; 
+    right: 4px; 
+}
+
+

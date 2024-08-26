@@ -1,0 +1,18 @@
+.setuju {
+    background-color: #16a34a;
+    color: #ffffff;
+    margin: 10px;
+    justify-content: flex-end;
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setuju:hover {
+    background-color: #15803d;
+}
+
+.tolak:hover {
+    background-color: #b91c1c;
+}

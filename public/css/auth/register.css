@@ -1,0 +1,91 @@
+body {
+    font-family: 'Figtree', sans-serif;
+}
+
+form {
+    position: relative;
+    background-color: #ffffff;
+    width: 320px; /* Lebar form tetap */
+    max-width: 90%; /* Maksimum lebar form relatif terhadap lebar layar */
+    margin: 50px auto; /* Posisi form di tengah secara horizontal */
+    padding: 20px;
+    border-radius: 20px;
+    height: 600px;
+    
+} 
+
+.text-create {
+    font-size: 1.8rem;
+    margin-top: 8px;
+    font-weight: 700;
+    color:#292A31;
+}
+
+.details {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 1px;
+}
+
+/* form input */
+.input-group {
+    position: relative !important;
+}
+
+.input-label {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    left: 10px !important;
+    color: #7b7b7b !important; /* warna label */
+    font-size: 0.8rem !important;
+    transition: all 0.3s ease !important; /* efek transisi untuk perubahan posisi label */
+}
+
+.input-field {
+    padding-left: 10px !important; /* padding kiri agar teks tidak bertabrakan dengan label */
+    border: 2px solid #ccc !important; /* Menambahkan border */
+    background-color: transparent !important; /* Mengatur background menjadi transparan */
+    width: 100% !important;
+    box-sizing: border-box !important;
+    font-size: 1rem !important;
+    outline: none !important;
+}
+
+.input-field:focus {
+    border-color: #000 !important; /* Mengubah warna border saat input difokuskan */
+}
+
+.input-field:focus + .input-label {
+    top: 0 !important; /* posisi label saat input difokuskan */
+    font-size: 0.7rem ; /* ukuran label saat input difokuskan */
+}
+
+/* ------ */
+
+
+.signup-button{
+    background-color: #292A31 !important;
+    color: #f3f3f3 !important;
+    width: 100% !important;
+    border-radius: 40px !important;
+    width: 250px !important; 
+    height: 37px !important;
+    font-size: 0.7rem !important;
+    font-weight: 500 !important;
+    justify-content: center !important;
+}
+
+
+.login {
+    position: absolute; /* Fix the position */
+    bottom: 10px; /* Adjust as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    font-size: 0.8rem;
+    color: #f3f3f3;
+}
+
+.text-already{
+    color: #292A31;
+}
